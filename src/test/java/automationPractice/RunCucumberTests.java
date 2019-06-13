@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/features/",
-        tags ="@yourTagName",
+        tags ="@invalidEmail",
         format = "html:target/CucumberHTMLReports")
 public class RunCucumberTests {
 

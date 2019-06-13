@@ -14,4 +14,4 @@ Feature: User login on Automation practice website
     Then User should be login successfully
     And User should see his name as "john smith"
 
-  @smoke @youtTagName
+
