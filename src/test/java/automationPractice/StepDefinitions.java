@@ -24,7 +24,7 @@ public class StepDefinitions {
     //open the browser and open the baseURL
     @Before
     public void startBrowser() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(baseURL);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
